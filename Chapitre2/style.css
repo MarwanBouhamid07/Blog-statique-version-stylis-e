@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+}
+
+.container {
+  background-color: rgb(91, 147, 219);
+  color: #5b1cd1;
+  width: 300px;
+  padding: 20px;
+  margin: 30px auto;
+  border: 2px solid #5b1cd1;
+  border-radius: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.title{
+    margin-bottom: 10px;
+    color: black;
+}
+
+#paragraph {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+}
