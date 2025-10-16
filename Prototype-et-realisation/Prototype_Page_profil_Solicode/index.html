@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Marwan Bouhamid — Portfolio</title>
+  <meta name="description" content="Portfolio de Marwan Bouhamid — développeur web, projets, compétences et contact.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="title-head">
+      <h1>Marwan Bouhamid</h1>
+      <p>Développeur web — passionné par les nouvelles technologies</p>
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#personal">Informations</a></li>
+        <li><a href="#skills">Compétences</a></li>
+        <li><a href="#projects">Projets</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <figure>
+      <img src="image/portrait-9814955_640.webp" alt="Portrait de Marwan Bouhamid" width="150" height="150">
+      <figcaption>Photo de profil</figcaption>
+    </figure>
+  </header>
+
+  <main>
+    <!-- À propos -->
+    <section id="about">
+      <h2>À propos</h2>
+      <p>
+        Je m’appelle <strong>Marwan Bouhamid</strong>. Passionné par le développement web et les nouvelles
+        technologies, j'apprends chaque jour de nouvelles compétences et je relève des défis techniques.
+        Mon objectif : créer des projets utiles et accessibles.
+      </p>
+      <ul>
+        <li>Domaines : Front-end, HTML, CSS, JavaScript</li>
+        <li>Méthodes : apprentissage continu, résolution de problèmes</li>
+        <li>Langues : Français, Arabe, Anglais</li>
+      </ul>
+    </section>
+
+    <!-- Informations personnelles -->
+    <section id="personal">
+      <h2>Informations personnelles</h2>
+      <dl>
+        <dt>Âge</dt>
+        <dd>18 ans</dd>
+
+        <dt>Localisation</dt>
+        <dd>Tanger, Maroc</dd>
+
+        <dt>Email</dt>
+        <dd><a href="mailto:marwanbouhamid123@gmail.com">marwanbouhamid123@gmail.com</a></dd>
+
+        <dt>Téléphone</dt>
+        <dd>+212 645 905 095</dd>
+      </dl>
+    </section>
+
+    <!-- Compétences -->
+    <section id="skills">
+      <h2>Compétences</h2>
+      <table border="1">
+        <caption>Technologies et niveau</caption>
+        <thead>
+          <tr>
+            <th id="title">Technologie</th>
+            <th class="niveau">Niveau (visuel)</th>
+            <th>Niveau (texte)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>HTML</td>
+            <td><progress value="90" max="100">90%</progress></td>
+            <td>Avancé</td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+            <td><progress value="60" max="100">60%</progress></td>
+            <td>Intermédiaire</td>
+          </tr>
+          <tr>
+            <td>JavaScript</td>
+            <td><progress value="30" max="100">30%</progress></td>
+            <td>Débutant</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <details>
+        <summary>Voir plus de compétences</summary>
+        <ul>
+          <li>HTML5 : sémantique, accessibilité</li>
+          <li>CSS (bases) : flexbox, grid</li>
+          <li>JavaScript : DOM, ES6</li>
+          <li>Outils : Git, GitHub, VS Code</li>
+        </ul>
+      </details>
+      
+    </section>
+
+    <!-- Projets -->
+    <section id="projects">
+      <h2>Projets</h2>
+
+      <article>
+        <h3><a href="https://github.com/MarwanBouhamid07/Mini-site-HTML-Pr-sentation-personnelle/tree/main/Prototype-et-realisation/" target="_blank">Mini-site statique</a></h3>
+        <p>Un mini-site d'information en HTML pur, axé sur accessibilité et performance.</p>
+      </article>
+
+      <article>
+        <h3><a href="https://github.com/MarwanBouhamid07" target="_blank">Portfolio GitHub</a></h3>
+        <p>Collection de petits projets et démonstrations de code.</p>
+      </article>
+    </section>
+
+    <!-- Loisirs -->
+    <section id="hobbies">
+      <h2>Loisirs</h2>
+      <ul>
+        <li>Lecture</li>
+        <li>Football</li>
+        <li>Programmation</li>
+      </ul>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <form>
+        <p>
+          <label for="name">Nom :</label><br>
+          <input id="name" name="name" type="text" required>
+        </p>
+        <p>
+          <label for="email">Email :</label><br>
+          <input id="email" name="email" type="email" required>
+        </p>
+        <p>
+          <label for="message">Message :</label><br>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </p>
+        <p>
+          <button type="submit">Envoyer</button>
+        </p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Retrouvez-moi sur <a href="https://github.com/MarwanBouhamid07" target="_blank">GitHub</a></p>
+    <p>&copy; 2025 — Marwan Bouhamid</p>
+  </footer>
+</body>
+</html>
