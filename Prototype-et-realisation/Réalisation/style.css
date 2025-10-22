@@ -166,6 +166,12 @@ input, textarea {
 .countainer{
   width: 100%;
 }
+header img{
+  width: 150px;
+  height: 150px;
+  border-radius:50%;
+  border: 2px solid white;
+}
 
 input:focus, textarea:focus {
   outline: none;
