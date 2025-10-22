@@ -9,3 +9,6 @@
   color: #2e28d2;
   font-size: 1.2em;
 }
+.content{
+  display: flex;
+}
