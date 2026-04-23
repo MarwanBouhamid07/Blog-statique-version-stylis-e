@@ -1,0 +1,228 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="../style/home-style.css">
+    <script src="https://kit.fontawesome.com/8f8b4a4f39.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="group-style">
+        <div class="group-LNM-L">
+            <div class="logo-project-name" id="logo-project-name">
+                <div class="logo">PI</div>
+                <div class="project-name">Project Insight</div>
+            </div>
+            <nav>
+                <a href="home.html">Home</a>
+                <a href="articles.html">Article</a>
+                <a href="about.html">About us</a>
+            </nav>
+        </div>
+        <div class="buttons-header">
+            <div class="profile-head">
+                <div class="profile-user"><i class="fa-regular fa-user"></i></div>
+                <div class="group-profile">
+                    <div class="username">user</div>
+                    <div class="role">Author</div>
+                </div>
+            </div>
+            <a href="login.php">Login in</a>
+            <div class="admin-button" id="admin-page">Admin</div>
+            <div class="explore">Explore</div>
+        </div>
+        </div>
+
+    </header>
+
+
+    <main>
+        <section class="featured-section">
+            <article class="featured-card">
+                <div class="content-side">
+                    <span class="badge">Featured Post</span>
+                    <h2>PHP (Hypertext Preprocessor)</h2>
+                    <p>powering over 75% of websites. It embeds directly into HTML, allowing developers to create dynamic, interactive web applications. PHP code executes on the server, producing HTML sent to the browser</p>
+                    <div class="time-with-autor">
+                        <div class="time"><i class="fa-regular fa-calendar"></i> Today</div>
+                        <span class="poinot"></span>
+                        <div class="author"><i class="fa-regular fa-user"></i> sarah</div>
+                    </div>
+                    <button class="read-article" onclick="window.location.href='artilce.html'">Read Article <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+
+                <div class="image-side">
+                    <img src="../uploads/image.png" alt="ff">
+                </div>
+            </article>
+        </section>
+        <div class="container">
+            <div class="section-header">
+                <h2>Latest Articles</h2>
+                <a href="articles.css">View all <i class="fa-solid fa-angle-right"></i></a>
+            </div>
+            <section class="articles-grid">
+                <div class="cards-container">
+                        
+                            <article class="post-card" onclick="window.location.href='article.html'">
+                                <div class="post-image">
+                                    <span class="badge">Development</span>
+                                    <img src="../uploads/react-bg.jpg" alt="ff">
+                                </div>
+
+                                <div class="post-content">
+                                    <time><i class="fa-regular fa-calendar"></i>March 5</time>
+
+                                    <h3 class="card-title">PHP (Hypertext Preprocessor)</h3>
+
+                                    <div class="author-info">
+                                        <div class="name">
+                                            <div class="prfile">A</div>
+                                            <span>Ahmed</span>
+                                        </div>
+                                        <div class="icon-left">
+                                            <a href="article.html">
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="post-card" onclick="window.location.href='article.html'">
+                                <div class="post-image">
+                                    <span class="badge">Designe</span>
+                                    <img src="../uploads/understanding-php.jpeg" alt="ff">
+                                </div>
+
+                                <div class="post-content">
+                                    <time><i class="fa-regular fa-calendar"></i>March 5</time>
+
+                                    <h3 class="card-title">canva (Hypertext Preprocessor)</h3>
+
+                                    <div class="author-info">
+                                        <div class="name">
+                                            <div class="prfile">A</div>
+                                            <span>Ahmed</span>
+                                        </div>
+                                        <div class="icon-left">
+                                            <a href="article.html">
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="post-card" onclick="window.location.href='article.html'">
+                                <div class="post-image">
+                                    <span class="badge">Machine learning</span>
+                                    <img src="../uploads/react-bg.jpg" alt="ff">
+                                </div>
+
+                                <div class="post-content">
+                                    <time><i class="fa-regular fa-calendar"></i>March 5</time>
+
+                                    <h3 class="card-title">Rust (Hypertext Preprocessor)</h3>
+
+                                    <div class="author-info">
+                                        <div class="name">
+                                            <div class="prfile">A</div>
+                                            <span>Ahmed</span>
+                                        </div>
+                                        <div class="icon-left">
+                                            <a href="article.html">
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                </div>
+            </section>
+
+            <aside class="sidebar">
+                <div class="widget search-widget">
+                    <h3><i class="fa-brands fa-sistrix"></i> Search</h3>
+                    <form  method="GET" class="search-box">
+                        <input type="text" name="query" placeholder="Search articles...">
+                        <button type="submit" class="search-btn">
+                            <i class="fa-brands fa-sistrix"></i>
+                        </button>
+                    </form>
+                </div>
+
+                <div class="widget trending-widget">
+                    <h3><i class="fa-solid fa-arrow-trend-up"></i> Trending Posts</h3>
+                    <div class="content-trending-posts">
+                        <div class="trend-post">
+                            <div class="number">01</div>
+                            <div class="title-date-trend-post">
+                                <h5 class="trend-post-title">Modern State Management in React</h4>
+                                    <div class="date-trend-post">Mar 25,2026</div>
+                            </div>
+                        </div>
+                        <div class="trend-post">
+                            <div class="number">02</div>
+                            <div class="title-date-trend-post">
+                                <h5 class="trend-pos-title">Modern State Management in React</h4>
+                                    <div class="date-trend-post">Mar 25,2026</div>
+                            </div>
+                        </div>
+                        <div class="trend-post">
+                            <div class="number">03</div>
+                            <div class="title-date-trend-post">
+                                <h5 class="trend-post-title">Modern State Management in React</h4>
+                                    <div class="date-trend-post">Mar 25,2026</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="widget categories-wedget">
+                    <h3> <i class="fa-regular fa-folder"></i> Categories</h3>
+                    <div class="categoreis">
+                        
+                            <div class="categorie">
+                                <div class="group-icon-nameCategorie">
+                                    <i class="fa-solid fa-angle-right"></i>
+                                    <p>
+                                        Development
+                                    </p>
+                                </div>
+                                <span class="number-of-articles-inCategorie">5</span>
+                            </div>
+                            <div class="categorie">
+                                <div class="group-icon-nameCategorie">
+                                    <i class="fa-solid fa-angle-right"></i>
+                                    <p>
+                                        Designe
+                                    </p>
+                                </div>
+                                <span class="number-of-articles-inCategorie">5</span>
+                            </div>
+                            <div class="categorie">
+                                <div class="group-icon-nameCategorie">
+                                    <i class="fa-solid fa-angle-right"></i>
+                                    <p>
+                                        Machine learning
+                                    </p>
+                                </div>
+                                <span class="number-of-articles-inCategorie">8</span>
+                            </div>
+                        
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+    <footer>&copy 2026 Project Insight Tech Blog. All rights reserved.</footer>
+    <script src="../assets/scripts/script.js"></script>
+</body>
+
+</html>
